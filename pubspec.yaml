@@ -26,6 +26,12 @@ dependencies:
   shared_preferences: ^2.2.2
   # the annotation package containing @riverpod
   riverpod_annotation: ^2.3.4
+  analyzer: 6.2.0
+
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
   mocktail: ^1.0.3
   random_string: ^2.3.1
   flutter_lints: ^3.0.1
@@ -33,15 +39,6 @@ dependencies:
   riverpod_generator: ^2.3.6
   riverpod_lint: ^2.3.8
   custom_lint: ^0.6.2
-
-dev_dependencies:
-  flutter_test:
-    sdk: flutter
-  # a tool for running code generators
-  # the code generator
-  # riverpod_lint makes it easier to work with Riverpod
-  # import custom_lint too as riverpod_lint depends on it
-
 flutter:
   uses-material-design: true
   # assets:
